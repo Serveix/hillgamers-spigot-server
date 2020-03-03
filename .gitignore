@@ -7,14 +7,9 @@ logs/
 
 plugins/MobHunting/backup/
 
-world_new/data/advancements/
-
-world_new/stats/
-
-world_new/player_data/
-world_new/playerdata/
-
-world_new/advancements/
+world_new/
+world_new_nether/
+world_new_the_end/
 
 mstore/
 

@@ -3,47 +3,365 @@ allowedWorlds:
 vehicleHealthEnabled: true
 trainAffectByPoweredRails: true
 fuelEnabled: true
+fuelBarEnabled: true
+#1: Text, 2: Icon
+fuelBarType: 2
+iconFuelBarSize: 30
 fuelMaterialValues:
- 'WOOD':
-  material: 'WOOD'
-  damage: 0
+ 'OAK_LOG':
+  material: 'OAK_LOG'
+  fuel-amount: 4
+ 'SPRUCE_LOG':
+  material: 'SPRUCE_LOG'
+  fuel-amount: 4
+ 'BIRCH_LOG':
+  material: 'BIRCH_LOG'
+  fuel-amount: 4
+ 'JUNGLE_LOG':
+  material: 'JUNGLE_LOG'
+  fuel-amount: 4
+ 'ACACIA_LOG':
+  material: 'ACACIA_LOG'
+  fuel-amount: 4
+ 'DARK_OAK_LOG':
+  material: 'DARK_OAK_LOG'
+  fuel-amount: 4
+ 'OAK_PLANKS':
+  material: 'OAK_PLANKS'
   fuel-amount: 1
- 'SPRUCE_WOOD':
-  material: 'WOOD'
-  damage: 1
+ 'SPRUCE_PLANKS':
+  material: 'SPRUCE_PLANKS'
   fuel-amount: 1
- 'BIRCH_WOOD':
-  material: 'WOOD'
-  damage: 2
+ 'BIRCH_PLANKS':
+  material: 'BIRCH_PLANKS'
   fuel-amount: 1
- 'JUNGLE_WOOD':
-  material: 'WOOD'
-  damage: 3
+ 'JUNGLE_PLANKS':
+  material: 'JUNGLE_PLANKS'
   fuel-amount: 1
- 'ACACIA_WOOD':
-  material: 'WOOD'
-  damage: 4
+ 'ACACIA_PLANKS':
+  material: 'ACACIA_PLANKS'
   fuel-amount: 1
- 'DARK_OAK_WOOD':
-  material: 'WOOD'
-  damage: 5
+ 'DARK_OAK_PLANKS':
+  material: 'DARK_OAK_PLANKS'
   fuel-amount: 1
+ 'WOODEN_AXE':
+  material: 'WOODEN_AXE'
+  fuel-amount: 2
+ 'OAK_BUTTON':
+  material: 'OAK_BUTTON'
+  fuel-amount: 1
+ 'SPRUCE_BUTTON':
+  material: 'SPRUCE_BUTTON'
+  fuel-amount: 1
+ 'BIRCH_BUTTON':
+  material: 'BIRCH_BUTTON'
+  fuel-amount: 1
+ 'JUNGLE_BUTTON':
+  material: 'JUNGLE_BUTTON'
+  fuel-amount: 1
+ 'ACACIA_BUTTON':
+  material: 'ACACIA_BUTTON'
+  fuel-amount: 1
+ 'DARK_OAK_BUTTON':
+  material: 'DARK_OAK_BUTTON'
+  fuel-amount: 1
+ 'OAK_DOOR':
+  material: 'OAK_DOOR'
+  fuel-amount: 2
+ 'SPRUCE_DOOR':
+  material: 'SPRUCE_DOOR'
+  fuel-amount: 2
+ 'BIRCH_DOOR':
+  material: 'BIRCH_DOOR'
+  fuel-amount: 2
+ 'JUNGLE_DOOR':
+  material: 'JUNGLE_DOOR'
+  fuel-amount: 2
+ 'ACACIA_DOOR':
+  material: 'ACACIA_DOOR'
+  fuel-amount: 2
+ 'DARK_OAK_DOOR':
+  material: 'DARK_OAK_DOOR'
+  fuel-amount: 2
+ 'WOODEN_HOE':
+  material: 'WOODEN_HOE'
+  fuel-amount: 2
+ 'WOODEN_PICKAXE':
+  material: 'WOODEN_PICKAXE'
+  fuel-amount: 2
+ 'OAK_PRESSURE_PLATE':
+  material: 'OAK_PRESSURE_PLATE'
+  fuel-amount: 2
+ 'SPRUCE_PRESSURE_PLATE':
+  material: 'SPRUCE_PRESSURE_PLATE'
+  fuel-amount: 2
+ 'BIRCH_PRESSURE_PLATE':
+  material: 'BIRCH_PRESSURE_PLATE'
+  fuel-amount: 2
+ 'JUNGLE_PRESSURE_PLATE':
+  material: 'JUNGLE_PRESSURE_PLATE'
+  fuel-amount: 2
+ 'ACACIA_PRESSURE_PLATE':
+  material: 'ACACIA_PRESSURE_PLATE'
+  fuel-amount: 2
+ 'DARK_OAK_PRESSURE_PLATE':
+  material: 'DARK_OAK_PRESSURE_PLATE'
+  fuel-amount: 2
+ 'WOODEN_SHOVEL':
+  material: 'WOODEN_SHOVEL'
+  fuel-amount: 2
+ 'OAK_STAIRS':
+  material: 'OAK_STAIRS'
+  fuel-amount: 2
+ 'SPRUCE_STAIRS':
+  material: 'SPRUCE_STAIRS'
+  fuel-amount: 2
+ 'BIRCH_STAIRS':
+  material: 'BIRCH_STAIRS'
+  fuel-amount: 2
+ 'JUNGLE_STAIRS':
+  material: 'JUNGLE_STAIRS'
+  fuel-amount: 2
+ 'ACACIA_STAIRS':
+  material: 'ACACIA_STAIRS'
+  fuel-amount: 2
+ 'DARK_OAK_STAIRS':
+  material: 'DARK_OAK_STAIRS'
+  fuel-amount: 2
+ 'OAK_SLAB':
+  material: 'OAK_SLAB'
+  fuel-amount: 2
+ 'SPRUCE_SLAB':
+  material: 'SPRUCE_SLAB'
+  fuel-amount: 2
+ 'BIRCH_SLAB':
+  material: 'BIRCH_SLAB'
+  fuel-amount: 2
+ 'JUNGLE_SLAB':
+  material: 'JUNGLE_SLAB'
+  fuel-amount: 2
+ 'ACACIA_SLAB':
+  material: 'ACACIA_SLAB'
+  fuel-amount: 2
+ 'DARK_OAK_SLAB':
+  material: 'DARK_OAK_SLAB'
+  fuel-amount: 2
+ 'WOODEN_SWORD':
+  material: 'WOODEN_SWORD'
+  fuel-amount: 2
+ 'BLACK_WOOL':
+  material: 'BLACK_WOOL'
+  fuel-amount: 2
+ 'BLUE_WOOL':
+  material: 'BLUE_WOOL'
+  fuel-amount: 2
+ 'BROWN_WOOL':
+  material: 'BROWN_WOOL'
+  fuel-amount: 2
+ 'CYAN_WOOL':
+  material: 'CYAN_WOOL'
+  fuel-amount: 2
+ 'GRAY_WOOL':
+  material: 'GRAY_WOOL'
+  fuel-amount: 2
+ 'GREEN_WOOL':
+  material: 'GREEN_WOOL'
+  fuel-amount: 2
+ 'LIGHT_BLUE_WOOL':
+  material: 'LIGHT_BLUE_WOOL'
+  fuel-amount: 2
+ 'LIGHT_GRAY_WOOL':
+  material: 'LIGHT_GRAY_WOOL'
+  fuel-amount: 2
+ 'LIME_WOOL':
+  material: 'LIME_WOOL'
+  fuel-amount: 2
+ 'MAGENTA_WOOL':
+  material: 'MAGENTA_WOOL'
+  fuel-amount: 2
+ 'ORANGE_WOOL':
+  material: 'ORANGE_WOOL'
+  fuel-amount: 2
+ 'PINK_WOOL':
+  material: 'PINK_WOOL'
+  fuel-amount: 2
+ 'PURPLE_WOOL':
+  material: 'PURPLE_WOOL'
+  fuel-amount: 2
+ 'RED_WOOL':
+  material: 'RED_WOOL'
+  fuel-amount: 2
+ 'WHITE_WOOL':
+  material: 'WHITE_WOOL'
+  fuel-amount: 2
+ 'YELLOW_WOOL':
+  material: 'YELLOW_WOOL'
+  fuel-amount: 2
+ 'OAK_FENCE':
+  material: 'OAK_FENCE'
+  fuel-amount: 2
+ 'SPRUCE_FENCE':
+  material: 'SPRUCE_FENCE'
+  fuel-amount: 2
+ 'BIRCH_FENCE':
+  material: 'BIRCH_FENCE'
+  fuel-amount: 2
+ 'JUNGLE_FENCE':
+  material: 'JUNGLE_FENCE'
+  fuel-amount: 2
+ 'ACACIA_FENCE':
+  material: 'ACACIA_FENCE'
+  fuel-amount: 2
+ 'DARK_OAK_FENCE':
+  material: 'DARK_OAK_FENCE'
+  fuel-amount: 2
+ 'ARMOR_STAND':
+  material: 'ARMOR_STAND'
+  fuel-amount: 2
+ 'OAK_FENCE_GATE':
+  material: 'OAK_FENCE_GATE'
+  fuel-amount: 2
+ 'SPRUCE_FENCE_GATE':
+  material: 'SPRUCE_FENCE_GATE'
+  fuel-amount: 2
+ 'BIRCH_FENCE_GATE':
+  material: 'BIRCH_FENCE_GATE'
+  fuel-amount: 2
+ 'JUNGLE_FENCE_GATE':
+  material: 'JUNGLE_FENCE_GATE'
+  fuel-amount: 2
+ 'ACACIA_FENCE_GATE':
+  material: 'ACACIA_FENCE_GATE'
+  fuel-amount: 2
+ 'DARK_OAK_FENCE_GATE':
+  material: 'DARK_OAK_FENCE_GATE'
+  fuel-amount: 2
+ 'BEETROOT_SEEDS':
+  material: 'BEETROOT_SEEDS'
+  fuel-amount: 1
+ 'OAK_BOAT':
+  material: 'OAK_BOAT'
+  fuel-amount: 2
+ 'SPRUCE_BOAT':
+  material: 'SPRUCE_BOAT'
+  fuel-amount: 2
+ 'BIRCH_BOAT':
+  material: 'BIRCH_BOAT'
+  fuel-amount: 2
+ 'JUNGLE_BOAT':
+  material: 'JUNGLE_BOAT'
+  fuel-amount: 2
+ 'ACACIA_BOAT':
+  material: 'ACACIA_BOAT'
+  fuel-amount: 2
+ 'DARK_OAK_BOAT':
+  material: 'DARK_OAK_BOAT'
+  fuel-amount: 2
+ 'BLACK_CARPET':
+  material: 'BLACK_CARPET'
+  fuel-amount: 1
+ 'BLUE_CARPET':
+  material: 'BLUE_CARPET'
+  fuel-amount: 1
+ 'BROWN_CARPET':
+  material: 'BROWN_CARPET'
+  fuel-amount: 1
+ 'CYAN_CARPET':
+  material: 'CYAN_CARPET'
+  fuel-amount: 1
+ 'GRAY_CARPET':
+  material: 'GRAY_CARPET'
+  fuel-amount: 1
+ 'GREEN_CARPET':
+  material: 'GREEN_CARPET'
+  fuel-amount: 1
+ 'LIGHT_BLUE_CARPET':
+  material: 'LIGHT_BLUE_CARPET'
+  fuel-amount: 1
+ 'LIGHT_GRAY_CARPET':
+  material: 'LIGHT_GRAY_CARPET'
+  fuel-amount: 1
+ 'LIME_CARPET':
+  material: 'LIME_CARPET'
+  fuel-amount: 1
+ 'MAGENTA_CARPET':
+  material: 'MAGENTA_CARPET'
+  fuel-amount: 1
+ 'ORANGE_CARPET':
+  material: 'ORANGE_CARPET'
+  fuel-amount: 1
+ 'PINK_CARPET':
+  material: 'PINK_CARPET'
+  fuel-amount: 1
+ 'PURPLE_CARPET':
+  material: 'PURPLE_CARPET'
+  fuel-amount: 1
+ 'RED_CARPET':
+  material: 'RED_CARPET'
+  fuel-amount: 1
+ 'WHITE_CARPET':
+  material: 'WHITE_CARPET'
+  fuel-amount: 1
+ 'YELLOW_CARPET':
+  material: 'YELLOW_CARPET'
+  fuel-amount: 1
+ 'CHEST':
+  material: 'CHEST'
+  fuel-amount: 2
  'COAL':
   material: 'COAL'
-  fuel-amount: 4
+  fuel-amount: 2
  'COAL_BLOCK':
   material: 'COAL_BLOCK'
-  fuel-amount: 36
+  fuel-amount: 18
+ 'COAL_ORE':
+  material: 'COAL_ORE'
+  fuel-amount: 1
+ 'WHEAT_SEEDS':
+  material: 'WHEAT_SEEDS'
+  fuel-amount: 1
+ 'DEAD_BUSH':
+  material: 'DEAD_BUSH'
+  fuel-amount: 1
+ 'MAP':
+  material: 'MAP'
+  fuel-amount: 1
+ 'LADDER':
+  material: 'LADDER'
+  fuel-amount: 1
+ 'BOOK':
+  material: 'BOOK'
+  fuel-amount: 1
  'LAVA_BUCKET':
   material: 'LAVA_BUCKET'
-  fuel-amount: 20
- #This would be a player head using a custom display name and lore you can either fill both, none or just one of this values.
+  fuel-amount: 5
+ 'PAPER':
+  material: 'PAPER'
+  fuel-amount: 1
+ 'PUMPKIN_SEEDS':
+  material: 'PUMPKIN_SEEDS'
+  fuel-amount: 1
+ 'MELON_SEEDS':
+  material: 'MELON_SEEDS'
+  fuel-amount: 1
+ 'STRING':
+  material: 'STRING'
+  fuel-amount: 1
+ 'WHEAT':
+  material: 'WHEAT'
+  fuel-amount: 1
+ 'WRITTEN_BOOK':
+  material: 'WRITTEN_BOOK'
+  fuel-amount: 1
+ 'STICK':
+  material: 'STICK'
+  fuel-amount: 1
+#This would be a player head using a custom display name and lore you can either fill both, none or just one of this values.
  'CUSTOM_ITEM_1':
-  material: 'SKULL_ITEM'
-  data: 3
+  material: 'PLAYER_HEAD'
   displayName: '&eFuel Can'
   lore:
-    - '&7Used to refill vehicles fuel.'
+   - '&7Used to refill vehicles fuel.'
   fuel-amount: 20
   displayNameRequired: true
   loreRequired: true
@@ -72,6 +390,32 @@ removeSubmarineOnDismount: false
 removeBroomOnDismount: false
 removeHoverBikeOnDismount: false
 soundsEnabled: true
+bikeJumpVolume: 1.0
+bikeEngineVolume: 1.0
+bikeExplodeVolume: 1.0
+broomExplodeVolume: 1.0
+carEngineVolume: 1.0
+carExplodeVolume: 1.0
+carHornVolume: 8.0
+helicopterEngineVolume: 2.0
+helicopterMissileLaunchVolume: 1.0
+helicopterExplodeVolume: 1.0
+hoverBikeEngineVolume: 2.0
+hoverBikeExplodeVolume: 1.0
+parachuteExplodeVolume: 1.0
+planeEngineVolume: 2.0
+planeBombDropVolume: 1.0
+planeExplodeVolume: 1.0
+raftExplodeVolume: 1.0
+submarineBaseVolume: 2.0
+submarineExplodeVolume: 1.0
+tankEngineVolume: 2.0
+tankMissileLaunchVolume: 1.0
+tankExplodeVolume: 1.0
+trainBaseVolume: 1.0
+trainHornVolume: 7.0
+trainExplodeVolume: 1.0
+particlesEnabled: true
 bike-shopsize: 9
 bike-shoptitle: '&6Bike Shop'
 bike-shopslots:
@@ -79,7 +423,6 @@ bike-shopslots:
   bikeType: 'BLACK'
   price: 30
   itemMaterial: 'CHEST'
-  itemByte: 0
   itemDisplayName: '&7Black Bike'
   itemLore:
    - '&7A standard black bike'
@@ -88,7 +431,6 @@ bike-shopslots:
   bikeType: 'ORANGE'
   price: 60
   itemMaterial: 'CHEST'
-  itemByte: 0
   itemDisplayName: '&6Orange Bike'
   itemLore:
    - '&7A standard orange bike'
@@ -97,7 +439,6 @@ bike-shopslots:
   bikeType: 'RED'
   price: 70
   itemMaterial: 'CHEST'
-  itemByte: 0
   itemDisplayName: '&cRed Bike'
   itemLore:
    - '&7A standard red bike'
@@ -109,7 +450,6 @@ car-shopslots:
   carType: 'BLACK'
   price: 50
   itemMaterial: 'CHEST'
-  itemByte: 0
   itemDisplayName: '&7Black Car'
   itemLore:
    - '&7A standard black car'
@@ -118,7 +458,6 @@ car-shopslots:
   carType: 'YELLOW'
   price: 80
   itemMaterial: 'CHEST'
-  itemByte: 0
   itemDisplayName: '&eYellow Car'
   itemLore:
    - '&7A standard yellow car'
@@ -127,7 +466,6 @@ car-shopslots:
   carType: 'MAGENTA'
   price: 100
   itemMaterial: 'CHEST'
-  itemByte: 0
   itemDisplayName: '&dMagenta Car'
   itemLore:
    - '&7A standard magenta car'
@@ -139,7 +477,6 @@ train-shopslots:
   trainType: 'T1'
   price: 50
   itemMaterial: 'CHEST'
-  itemByte: 0
   itemDisplayName: '&7Slow Train'
   itemLore:
    - '&7A standard slow train'
@@ -148,7 +485,6 @@ train-shopslots:
   trainType: 'T2'
   price: 80
   itemMaterial: 'CHEST'
-  itemByte: 0
   itemDisplayName: '&eRegular Train'
   itemLore:
    - '&7A standard regular train'
@@ -157,7 +493,6 @@ train-shopslots:
   trainType: 'T3'
   price: 100
   itemMaterial: 'CHEST'
-  itemByte: 0
   itemDisplayName: '&aFast Train'
   itemLore:
    - '&7A standard fast train'
@@ -169,7 +504,6 @@ raft-shopslots:
   raftType: 'OLD'
   price: 50
   itemMaterial: 'CHEST'
-  itemByte: 0
   itemDisplayName: '&eOld Raft'
   itemLore:
    - '&7An old used raft'
@@ -178,7 +512,6 @@ raft-shopslots:
   raftType: 'NETHER'
   price: 80
   itemMaterial: 'CHEST'
-  itemByte: 0
   itemDisplayName: '&cNether Raft'
   itemLore:
    - '&7A nether raft'
@@ -187,7 +520,6 @@ raft-shopslots:
   raftType: 'PIRATE'
   price: 100
   itemMaterial: 'CHEST'
-  itemByte: 0
   itemDisplayName: '&7Pirate Raft'
   itemLore:
    - '&7Dead men tell no tales'
@@ -199,7 +531,6 @@ plane-shopslots:
   planeType: 'P1'
   price: 70
   itemMaterial: 'CHEST'
-  itemByte: 0
   itemDisplayName: '&2Ki-61 Plane'
   itemLore:
    - '&7A plane from Japan'
@@ -208,7 +539,6 @@ plane-shopslots:
   planeType: 'P2'
   price: 100
   itemMaterial: 'CHEST'
-  itemByte: 0
   itemDisplayName: '&6YAK-3 Plane'
   itemLore:
    - '&7A plane from Russia'
@@ -217,7 +547,6 @@ plane-shopslots:
   planeType: 'P3'
   price: 150
   itemMaterial: 'CHEST'
-  itemByte: 0
   itemDisplayName: '&7P-61 Plane'
   itemLore:
    - '&7"The Black Widow"'
@@ -229,7 +558,6 @@ parachute-shopslots:
   parachuteType: 'PC1'
   price: 50
   itemMaterial: 'CHEST'
-  itemByte: 0
   itemDisplayName: '&aLow Quality Parachute'
   itemLore:
    - '&7A low quality parachute'
@@ -238,7 +566,6 @@ parachute-shopslots:
   parachuteType: 'PC2'
   price: 60
   itemMaterial: 'CHEST'
-  itemByte: 0
   itemDisplayName: '&eProfessional Parachute'
   itemLore:
    - '&7A professional parachute'
@@ -247,7 +574,6 @@ parachute-shopslots:
   parachuteType: 'PC3'
   price: 80
   itemMaterial: 'CHEST'
-  itemByte: 0
   itemDisplayName: '&cWar Parachute'
   itemLore:
    - '&7A war parachute'
@@ -259,7 +585,6 @@ helicopter-shopslots:
   helicopterType: 'H1'
   price: 70
   itemMaterial: 'CHEST'
-  itemByte: 0
   itemDisplayName: '&aTiger Helicopter'
   itemLore:
    - '&7European power'
@@ -268,7 +593,6 @@ helicopter-shopslots:
   helicopterType: 'H2'
   price: 100
   itemMaterial: 'CHEST'
-  itemByte: 0
   itemDisplayName: '&eKamov KA-52 Helicopter'
   itemLore:
    - '&7The "Black Shark"'
@@ -277,7 +601,6 @@ helicopter-shopslots:
   helicopterType: 'H3'
   price: 150
   itemMaterial: 'CHEST'
-  itemByte: 0
   itemDisplayName: '&cApache Helicopter'
   itemLore:
    - '&7An US Advanced Attack Helicopter'
@@ -289,7 +612,6 @@ tank-shopslots:
   tankType: 'T1'
   price: 70
   itemMaterial: 'CHEST'
-  itemByte: 0
   itemDisplayName: '&7Merkava Mk.4 Tank'
   itemLore:
    - '&7The latest Israeli development'
@@ -298,7 +620,6 @@ tank-shopslots:
   tankType: 'T2'
   price: 100
   itemMaterial: 'CHEST'
-  itemByte: 0
   itemDisplayName: '&6Leopard 2A7 Tank'
   itemLore:
    - '&7A tank from Germany'
@@ -307,7 +628,6 @@ tank-shopslots:
   tankType: 'T3'
   price: 150
   itemMaterial: 'CHEST'
-  itemByte: 0
   itemDisplayName: '&aArmata Tank'
   itemLore:
    - '&7Russian main battle tank of new generation'
@@ -319,7 +639,6 @@ submarine-shopslots:
   submarineType: 'S1'
   price: 70
   itemMaterial: 'CHEST'
-  itemByte: 0
   itemDisplayName: '&aOhio Submarine'
   itemLore:
    - '&7Designed to carry intercontinental ballistic missiles.'
@@ -328,7 +647,6 @@ submarine-shopslots:
   submarineType: 'S2'
   price: 100
   itemMaterial: 'CHEST'
-  itemByte: 0
   itemDisplayName: '&eYellow Submarine'
   itemLore:
    - '&7We all live in a yellow submarine...'
@@ -337,7 +655,6 @@ submarine-shopslots:
   submarineType: 'S3'
   price: 150
   itemMaterial: 'CHEST'
-  itemByte: 0
   itemDisplayName: '&cSierra II Submarine'
   itemLore:
    - '&7This submarine has strong titanium hulls.'
@@ -349,7 +666,6 @@ broom-shopslots:
   broomType: 'B1'
   price: 70
   itemMaterial: 'CHEST'
-  itemByte: 0
   itemDisplayName: '&aComet 140'
   itemLore:
    - '&7It was the first broom to incorporate the Horton-Keitch Braking Charm.'
@@ -358,7 +674,6 @@ broom-shopslots:
   broomType: 'B2'
   price: 100
   itemMaterial: 'CHEST'
-  itemByte: 0
   itemDisplayName: '&eNimbus 2001'
   itemLore:
    - "&7The top of the Nimbus Racing Broom Company's range."
@@ -367,7 +682,6 @@ broom-shopslots:
   broomType: 'B3'
   price: 150
   itemMaterial: 'CHEST'
-  itemByte: 0
   itemDisplayName: '&cFirebolt'
   itemLore:
    - '&7The state-of-the-art racing broom.'
@@ -379,7 +693,6 @@ hoverbike-shopslots:
   hoverbikeType: 'HB1'
   price: 60
   itemMaterial: 'CHEST'
-  itemByte: 0
   itemDisplayName: '&7Old Hover Bike'
   itemLore:
    - '&7An old hover bike.'
@@ -388,8 +701,7 @@ hoverbike-shopslots:
   hoverbikeType: 'HB2'
   price: 80
   itemMaterial: 'CHEST'
-  itemByte: 0
-  itemDisplayName: '&fStandard Hover Bike'
+  itemDisplayName: '&aStandard Hover Bike'
   itemLore:
    - '&7Used all over the galaxy.'
    - '&6Price: &780'
@@ -397,18 +709,15 @@ hoverbike-shopslots:
   hoverbikeType: 'HB3'
   price: 100
   itemMaterial: 'CHEST'
-  itemByte: 0
   itemDisplayName: '&6Advanced Hover Bike'
   itemLore:
    - '&7Only for professionals.'
    - '&6Price: &7100'
 bikes:
  'BLACK':
-  seatMaterial: 'STAINED_CLAY'
-  seatByte: 15
+  seatMaterial: 'BLACK_TERRACOTTA'
   wheelsUrl: 'http://textures.minecraft.net/texture/444cd5d2fd2fe397ddb927e184f19ecbd0fe24af6ef68852c172ae447cd4'
-  backMaterial: 'WOOD_STEP'
-  backByte: 5
+  backMaterial: 'SPRUCE_SLAB'
   maxSpeed: 1.2
   acelerationValue: 0.006
   displayName: '&7Black Bike'
@@ -417,11 +726,9 @@ bikes:
   fuelCapacity: 1000
   fuelWasteSpeed: 1.2
  'ORANGE':
-  seatMaterial: 'STAINED_CLAY'
-  seatByte: 1
+  seatMaterial: 'ORANGE_TERRACOTTA'
   wheelsUrl: 'http://textures.minecraft.net/texture/444cd5d2fd2fe397ddb927e184f19ecbd0fe24af6ef68852c172ae447cd4'
-  backMaterial: 'STONE_SLAB2'
-  backByte: 0
+  backMaterial: 'CUT_RED_SANDSTONE_SLAB'
   maxSpeed: 1.4
   acelerationValue: 0.006
   displayName: '&6Orange Bike'
@@ -430,11 +737,9 @@ bikes:
   fuelCapacity: 1200
   fuelWasteSpeed: 1.1
  'RED':
-  seatMaterial: 'STAINED_CLAY'
-  seatByte: 14
+  seatMaterial: 'RED_TERRACOTTA'
   wheelsUrl: 'http://textures.minecraft.net/texture/444cd5d2fd2fe397ddb927e184f19ecbd0fe24af6ef68852c172ae447cd4'
-  backMaterial: 'STEP'
-  backByte: 6
+  backMaterial: 'NETHER_BRICK_SLAB'
   maxSpeed: 1.6
   acelerationValue: 0.006
   displayName: '&cRed Bike'
@@ -444,8 +749,7 @@ bikes:
   fuelWasteSpeed: 1.0
 cars:
  'BLACK':
-  mainMaterial: 'STAINED_CLAY'
-  mainByte: 15
+  mainMaterial: 'BLACK_TERRACOTTA'
   wheelsUrl: 'http://textures.minecraft.net/texture/444cd5d2fd2fe397ddb927e184f19ecbd0fe24af6ef68852c172ae447cd4'
   frontLightsUrl: 'http://textures.minecraft.net/texture/59e9c9246f1ba5a41e53efa68b2bd56a70da308f393487dcf6fe756799b3c7'
   backLightsUrl: 'http://textures.minecraft.net/texture/4636afc9ecb492722eda37eaab7f5c4acca8974bdc628e4273cbcebd45073ac'
@@ -459,8 +763,7 @@ cars:
   fuelCapacity: 1000
   fuelWasteSpeed: 1.2
  'YELLOW':
-  mainMaterial: 'STAINED_CLAY'
-  mainByte: 4
+  mainMaterial: 'YELLOW_TERRACOTTA'
   wheelsUrl: 'http://textures.minecraft.net/texture/444cd5d2fd2fe397ddb927e184f19ecbd0fe24af6ef68852c172ae447cd4'
   frontLightsUrl: 'http://textures.minecraft.net/texture/59e9c9246f1ba5a41e53efa68b2bd56a70da308f393487dcf6fe756799b3c7'
   backLightsUrl: 'http://textures.minecraft.net/texture/4636afc9ecb492722eda37eaab7f5c4acca8974bdc628e4273cbcebd45073ac'
@@ -474,8 +777,7 @@ cars:
   fuelCapacity: 1200
   fuelWasteSpeed: 1.1
  'MAGENTA':
-  mainMaterial: 'STAINED_CLAY'
-  mainByte: 2
+  mainMaterial: 'MAGENTA_TERRACOTTA'
   wheelsUrl: 'http://textures.minecraft.net/texture/444cd5d2fd2fe397ddb927e184f19ecbd0fe24af6ef68852c172ae447cd4'
   frontLightsUrl: 'http://textures.minecraft.net/texture/59e9c9246f1ba5a41e53efa68b2bd56a70da308f393487dcf6fe756799b3c7'
   backLightsUrl: 'http://textures.minecraft.net/texture/4636afc9ecb492722eda37eaab7f5c4acca8974bdc628e4273cbcebd45073ac'
@@ -524,7 +826,7 @@ trains:
   fuelWasteSpeed: 1.0
 rafts:
 #
-# Colors: BLACK,BLUE,BROWN,CYAN,GRAY,GREEN,LIGHT_BLUE,LIME,MAGENTA,ORANGE,PINK,PURPLE,RED,SILVER,WHITE,YELLOW
+# Colors: BLACK,BLUE,BROWN,CYAN,GRAY,GREEN,LIGHT_BLUE,LIGHT_GRAY,LIME,MAGENTA,ORANGE,PINK,PURPLE,RED,WHITE,YELLOW
 #
 # Layer types: BASE,BORDER,BRICKS,CIRCLE_MIDDLE,CREEPER,CROSS,CURLY_BORDER,DIAGONAL_LEFT,DIAGONAL_LEFT_MIRROR,
 # DIAGONAL_RIGHT,DIAGONAL_RIGHT_MIRROR,FLOWER,GRADIENT,GRADIENT_UP,HALF_HORIZONTAL,HALF_HORIZONTAL_MIRROR,HALF_VERTICAL,
@@ -567,11 +869,9 @@ rafts:
   maxHealth: 40
 planes:
  'P1':
-  mainMaterial: 'STAINED_CLAY'
-  mainByte: 13
+  mainMaterial: 'GREEN_TERRACOTTA'
   wheelsUrl: 'http://textures.minecraft.net/texture/7e873aa9cf76821da515fb7461e88b71759c1164908d8b2013145b58cfbf'
-  wingsMaterial: 'WOOD_PLATE'
-  wingsByte: 0
+  wingsMaterial: 'OAK_PRESSURE_PLATE'
   maxSpeed: 1
   acelerationValue: 0.006
   takeOffSpeed: 0.9
@@ -582,11 +882,9 @@ planes:
   fuelCapacity: 1000
   fuelWasteSpeed: 1.2
  'P2':
-  mainMaterial: 'STAINED_CLAY'
-  mainByte: 12
+  mainMaterial: 'BROWN_TERRACOTTA'
   wheelsUrl: 'http://textures.minecraft.net/texture/7e873aa9cf76821da515fb7461e88b71759c1164908d8b2013145b58cfbf'
-  wingsMaterial: 'STONE_PLATE'
-  wingsByte: 0
+  wingsMaterial: 'STONE_PRESSURE_PLATE'
   maxSpeed: 1.1
   acelerationValue: 0.007
   takeOffSpeed: 0.9
@@ -597,11 +895,9 @@ planes:
   fuelCapacity: 1200
   fuelWasteSpeed: 1.1
  'P3':
-  mainMaterial: 'STAINED_CLAY'
-  mainByte: 9
+  mainMaterial: 'CYAN_TERRACOTTA'
   wheelsUrl: 'http://textures.minecraft.net/texture/7e873aa9cf76821da515fb7461e88b71759c1164908d8b2013145b58cfbf'
-  wingsMaterial: 'IRON_PLATE'
-  wingsByte: 0
+  wingsMaterial: 'HEAVY_WEIGHTED_PRESSURE_PLATE'
   maxSpeed: 1.2
   acelerationValue: 0.008
   takeOffSpeed: 0.8
@@ -613,7 +909,7 @@ planes:
   fuelWasteSpeed: 1.0
 parachutes:
 #
-# Colors: BLACK,BLUE,BROWN,CYAN,GRAY,GREEN,LIGHT_BLUE,LIME,MAGENTA,ORANGE,PINK,PURPLE,RED,SILVER,WHITE,YELLOW
+# Colors: BLACK,BLUE,BROWN,CYAN,GRAY,GREEN,LIGHT_BLUE,LIGHT_GRAY,LIME,MAGENTA,ORANGE,PINK,PURPLE,RED,WHITE,YELLOW
 #
 # Layer types: BASE,BORDER,BRICKS,CIRCLE_MIDDLE,CREEPER,CROSS,CURLY_BORDER,DIAGONAL_LEFT,DIAGONAL_LEFT_MIRROR,
 # DIAGONAL_RIGHT,DIAGONAL_RIGHT_MIRROR,FLOWER,GRADIENT,GRADIENT_UP,HALF_HORIZONTAL,HALF_HORIZONTAL_MIRROR,HALF_VERTICAL,
@@ -661,7 +957,7 @@ parachutes:
   maxHealth: 40
 helicopters:
 #
-# Colors: BLACK,BLUE,BROWN,CYAN,GRAY,GREEN,LIGHT_BLUE,LIME,MAGENTA,ORANGE,PINK,PURPLE,RED,SILVER,WHITE,YELLOW
+# Colors: BLACK,BLUE,BROWN,CYAN,GRAY,GREEN,LIGHT_BLUE,LIGHT_GRAY,LIME,MAGENTA,ORANGE,PINK,PURPLE,RED,WHITE,YELLOW
 #
 # Layer types: BASE,BORDER,BRICKS,CIRCLE_MIDDLE,CREEPER,CROSS,CURLY_BORDER,DIAGONAL_LEFT,DIAGONAL_LEFT_MIRROR,
 # DIAGONAL_RIGHT,DIAGONAL_RIGHT_MIRROR,FLOWER,GRADIENT,GRADIENT_UP,HALF_HORIZONTAL,HALF_HORIZONTAL_MIRROR,HALF_VERTICAL,
@@ -670,8 +966,7 @@ helicopters:
 # STRIPE_LEFT,STRIPE_MIDDLE,STRIPE_RIGHT,STRIPE_SMALL,STRIPE_TOP,TRIANGLE_BOTTOM,TRIANGLE_TOP,TRIANGLES_BOTTOM,
 # TRIANGLES_TOP
  'H1':
-  mainMaterial: STAINED_CLAY
-  mainByte: 9
+  mainMaterial: 'CYAN_TERRACOTTA'
   helixBanners:
    - 'BLACK-BASE'
   maxSpeed: 0.9
@@ -684,10 +979,9 @@ helicopters:
   fuelCapacity: 1000
   fuelWasteSpeed: 1.2
  'H2':
-  mainMaterial: STAINED_CLAY
-  mainByte: 12
+  mainMaterial: 'BROWN_TERRACOTTA'
   helixBanners:
-   - 'SILVER-BASE'
+   - 'LIGHT_GRAY-BASE'
   maxSpeed: 0.95
   acelerationValue: 0.0065
   rotorSpeedValue: 0.1
@@ -698,8 +992,7 @@ helicopters:
   fuelCapacity: 1200
   fuelWasteSpeed: 1.1
  'H3':
-  mainMaterial: STAINED_CLAY
-  mainByte: 13
+  mainMaterial: 'GREEN_TERRACOTTA'
   helixBanners:
    - 'BLACK-BASE'
   maxSpeed: 1.0
@@ -713,10 +1006,8 @@ helicopters:
   fuelWasteSpeed: 1.0
 tanks:
  'T1':
-  mainMaterial: STAINED_CLAY
-  mainByte: 9
-  mainMaterial2: STAINED_CLAY
-  mainByte2: 9
+  mainMaterial: 'CYAN_TERRACOTTA'
+  mainMaterial2: 'CYAN_TERRACOTTA'
   firstChainsUrl: 'http://textures.minecraft.net/texture/d37220672d54c8704ff18b55b8b70ea3be9b186c3edf38d8a51e31a3e8c5'
   secondChainsUrl: 'http://textures.minecraft.net/texture/cffbe6c428194b921995ee718aaacd24311fc894b9c3090f544f990cad65a'
   thirdChainsUrl: 'http://textures.minecraft.net/texture/6a635322622762694971c3d1b279fe091b853f14b7522de72c7a5b9a803eb'
@@ -730,10 +1021,8 @@ tanks:
   fuelCapacity: 1000
   fuelWasteSpeed: 1.2
  'T2':
-  mainMaterial: STAINED_CLAY
-  mainByte: 1
-  mainMaterial2: HARD_CLAY
-  mainByte2: 0
+  mainMaterial: 'ORANGE_TERRACOTTA'
+  mainMaterial2: 'TERRACOTTA'
   firstChainsUrl: 'http://textures.minecraft.net/texture/d37220672d54c8704ff18b55b8b70ea3be9b186c3edf38d8a51e31a3e8c5'
   secondChainsUrl: 'http://textures.minecraft.net/texture/cffbe6c428194b921995ee718aaacd24311fc894b9c3090f544f990cad65a'
   thirdChainsUrl: 'http://textures.minecraft.net/texture/6a635322622762694971c3d1b279fe091b853f14b7522de72c7a5b9a803eb'
@@ -747,10 +1036,8 @@ tanks:
   fuelCapacity: 1200
   fuelWasteSpeed: 1.1
  'T3':
-  mainMaterial: STAINED_CLAY
-  mainByte: 5
-  mainMaterial2: STAINED_CLAY
-  mainByte2: 13
+  mainMaterial: 'LIME_TERRACOTTA'
+  mainMaterial2: 'GREEN_TERRACOTTA'
   firstChainsUrl: 'http://textures.minecraft.net/texture/d37220672d54c8704ff18b55b8b70ea3be9b186c3edf38d8a51e31a3e8c5'
   secondChainsUrl: 'http://textures.minecraft.net/texture/cffbe6c428194b921995ee718aaacd24311fc894b9c3090f544f990cad65a'
   thirdChainsUrl: 'http://textures.minecraft.net/texture/6a635322622762694971c3d1b279fe091b853f14b7522de72c7a5b9a803eb'
@@ -765,7 +1052,7 @@ tanks:
   fuelWasteSpeed: 1.0
 submarines:
 #
-# Colors: BLACK,BLUE,BROWN,CYAN,GRAY,GREEN,LIGHT_BLUE,LIME,MAGENTA,ORANGE,PINK,PURPLE,RED,SILVER,WHITE,YELLOW
+# Colors: BLACK,BLUE,BROWN,CYAN,GRAY,GREEN,LIGHT_BLUE,LIGHT_GRAY,LIME,MAGENTA,ORANGE,PINK,PURPLE,RED,WHITE,YELLOW
 #
 # Layer types: BASE,BORDER,BRICKS,CIRCLE_MIDDLE,CREEPER,CROSS,CURLY_BORDER,DIAGONAL_LEFT,DIAGONAL_LEFT_MIRROR,
 # DIAGONAL_RIGHT,DIAGONAL_RIGHT_MIRROR,FLOWER,GRADIENT,GRADIENT_UP,HALF_HORIZONTAL,HALF_HORIZONTAL_MIRROR,HALF_VERTICAL,
@@ -774,8 +1061,7 @@ submarines:
 # STRIPE_LEFT,STRIPE_MIDDLE,STRIPE_RIGHT,STRIPE_SMALL,STRIPE_TOP,TRIANGLE_BOTTOM,TRIANGLE_TOP,TRIANGLES_BOTTOM,
 # TRIANGLES_TOP
  'S1':
-  mainMaterial: STAINED_CLAY
-  mainByte: 9
+  mainMaterial: 'CYAN_TERRACOTTA'
   helixBanners:
    - 'WHITE-GRADIENT'
    - 'WHITE-DIAGONAL_RIGHT'
@@ -795,8 +1081,7 @@ submarines:
   viewPort2Url: 'http://textures.minecraft.net/texture/2942eee3b8a877dfd3a67c6b76e12c63a574565b2792870e832cc72a61c0f0'
   viewPort3Url: 'http://textures.minecraft.net/texture/83324a6046ab85269217afd57e1e61392951417b228c22391874f4e1e295d98'
  'S2':
-  mainMaterial: STAINED_CLAY
-  mainByte: 4
+  mainMaterial: 'YELLOW_TERRACOTTA'
   helixBanners:
    - 'WHITE-GRADIENT'
    - 'WHITE-DIAGONAL_RIGHT'
@@ -817,7 +1102,6 @@ submarines:
   viewPort3Url: 'http://textures.minecraft.net/texture/83324a6046ab85269217afd57e1e61392951417b228c22391874f4e1e295d98'
  'S3':
   mainMaterial: IRON_BLOCK
-  mainByte: 0
   helixBanners:
    - 'WHITE-GRADIENT'
    - 'WHITE-DIAGONAL_RIGHT'
@@ -867,12 +1151,9 @@ hoverbikes:
   material5Url: 'http://textures.minecraft.net/texture/a1a1f1b1bbfe9d57623ca45620a7448bf8da8471f731e10d5b8a17a1bbb5bba'
   material6Url: 'http://textures.minecraft.net/texture/d84747f558242009f5d34c9a390fab6c95e1b672d33a118eb7a777752dc659'
   material7Url: 'http://textures.minecraft.net/texture/c58d2560ba68a72add82bef8bdcfb4923a978889429eebf12f4f2fce1f3ef0'
-  carpetMaterial: CARPET
-  carpetByte: 12
-  spadeMaterial: WOOD_SPADE
-  spadeByte: 1
-  hoeMaterial: STONE_HOE
-  hoeByte: 1
+  carpetMaterial: 'BROWN_CARPET'
+  spadeMaterial: 'WOODEN_SHOVEL'
+  hoeMaterial: 'STONE_HOE'
   maxSpeed: 1.2
   acelerationValue: 0.009
   displayName: '&7Old Hover Bike'
@@ -888,15 +1169,12 @@ hoverbikes:
   material5Url: 'http://textures.minecraft.net/texture/d1168f137301df8c53493324083d9f1e82a5f6b76c2b7b06f5eb7d8b2f7499'
   material6Url: 'http://textures.minecraft.net/texture/61f6452fad839c313e3cb3dd3daf1626c986d7da1bad937c28d34ffb6ab968c'
   material7Url: 'http://textures.minecraft.net/texture/66c67eeaf8e6e6b2cb5c38eb5a1b24a27f3411d449aa39e26e8455276827'
-  carpetMaterial: CARPET
-  carpetByte: 8
-  spadeMaterial: IRON_SPADE
-  spadeByte: 1
-  hoeMaterial: IRON_HOE
-  hoeByte: 1
+  carpetMaterial: 'LIGHT_GRAY_CARPET'
+  spadeMaterial: 'IRON_SHOVEL'
+  hoeMaterial: 'IRON_HOE'
   maxSpeed: 1.3
   acelerationValue: 0.0095
-  displayName: '&fStandard Hover Bike'
+  displayName: '&aStandard Hover Bike'
   permission: 'HoverBikes.type.HB2'
   maxHealth: 45
   fuelCapacity: 1200
@@ -909,12 +1187,9 @@ hoverbikes:
   material5Url: 'http://textures.minecraft.net/texture/d793e68a7939fec80521dbb9d371c3e731397cc15e059b3a88bbd876569e140'
   material6Url: 'http://textures.minecraft.net/texture/dece9c20dfdb1abc8d71d681dbeda5a64d86439be67f73e223e41c3bc8198b95'
   material7Url: 'http://textures.minecraft.net/texture/1d22806483f0f0e0be3026ea4712bad69ab49caffb826c877885632f1ef63226'
-  carpetMaterial: CARPET
-  carpetByte: 4
-  spadeMaterial: GOLD_SPADE
-  spadeByte: 1
-  hoeMaterial: GOLD_HOE
-  hoeByte: 1
+  carpetMaterial: 'YELLOW_CARPET'
+  spadeMaterial: 'GOLDEN_SHOVEL'
+  hoeMaterial: 'GOLDEN_HOE'
   maxSpeed: 1.4
   acelerationValue: 0.01
   displayName: '&6Advanced Hover Bike'

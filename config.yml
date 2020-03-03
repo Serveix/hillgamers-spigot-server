@@ -1,0 +1,42 @@
+# SavageFactions by ProSavage
+# Report issues: https://github.com/ProSavage/SavageFactions/issues/new
+# Live support: https://discord.gg/W9dv9WP
+# Spigot Site: https://www.spigotmc.org/resources/savagefactions-factionsuuid-reimagined-1-7-1-12.52891/
+# Website: http://www.prosavage.net/
+# CI: http://ci.prosavage.net/
+# Wiki: http://wiki.prosavage.net/display/savagefactions
+# Make sure to check the wiki mentioned above before making a issue on github or asking for help in the discord chat!
+# There are additional options present in the conf.json file.
+# 
+# Made with love <3
+# 
+# Debug
+# Turn this on if you are having issues with something and working on resolving them.
+# This will spam your console with information that is useful if you know how to read the source.
+# It's suggested that you only turn this on at the direction of a developer.
+fupgrades:
+  upgrades:
+    power:
+      levels: {}
+      displayitem: {}
+    chest:
+      levels: {}
+      displayitem: {}
+    exp:
+      levels: {}
+      displayitem: {}
+    crop:
+      levels: {}
+      displayitem: {}
+    member:
+      levels: {}
+      displayitem: {}
+    spawner:
+      levels: {}
+      displayitem: {}
+    tntbank:
+      levels: {}
+      displayitem: {}
+    warp:
+      levels: {}
+      displayitem: {}

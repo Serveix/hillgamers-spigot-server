@@ -1,0 +1,62 @@
+#######################                       #######################
+#      _____                                                        #
+#     /    /  /\     /                              _   _   _       #
+#    /___ /  /  \   / |\_/|  _  ___ |\       \   / |_  | | | |      #
+#   /    /  /    \ /  |   | | |  |  | |  -->  \_/. |_|.|_|.|_|      #
+#  /    /  /      /   |   | |_|  |  |/                              #
+#                                                                   #
+####################         Strings.yml         ####################
+
+#
+#Placeholders:
+#
+#Online Placeholders:
+#%online% => real server's online
+#%fakeOnline% => fake server's online
+#(last placeholder only works if you allow usage of
+#Data.yml file in config.yml, by setting Data: true)
+#
+#MaxPlayers Placeholders:
+#%maxplayers% => number of real server's slots
+#%fakeMaxplayers% => number of fake server's
+#(last placeholder only works if you allow usage of
+#Data.yml file in config.yml, by setting Data: true)
+#
+    
+Motd:
+    
+    #What should be displayed on line 1 of your Motd:
+    #(if you have more than 1 line, random will be selected
+    #but it will be on the same position as a line in LineTwo section)
+    LineOne:
+        - "&9&lHillGamers &7&l|&r &b1.15.x &7&l| &r&fVisita &a&lhillgamers.com &f&l!"
+        - "&9&lHillGamers &7&l|&r &b1.15.x &7&l| &r&fVisita &a&lhillgamers.com &f&l!"
+        - "&9&lHillGamers &7&l|&r &b1.15.x &7&l| &r&fVisita &a&lhillgamers.com &f&l!"
+    
+    #What should be displayed on line 2 of your Motd:
+    #(if you have more than 1 line, random will be selected
+    #but it will be on the same position as a line in LineOne section)
+    LineTwo:
+        - "&7&l➢ &r&fAhora con &a&lFactions &r&f!"
+        - "&7&l➢ &r&fYa probaste &a&lFactions &r&f?"
+        - "&7&l➢ &a&lFactions &r&fy mas!"
+    
+HoverBox:
+
+    #What text should be displayed when you hover over a player amount text:
+    HoverText:
+        - "&9&lHillGamers &r&f&!!!"
+        - "&7&m----------"
+        - ""
+        - "&b&lOnline: &r&f&l%online%"
+        - "&b&lMaxPlayers: &r&f&l%maxplayers%"
+        - ""
+        - "&6Hazte &lVIP &ren: &7&l&ohillgamers.com"
+        - ""
+        - "&7&m----------"
+        
+Version:
+    
+    #What text should be displayed instead of player amount text:
+    VersionText: "&bTe esperamos &b>&a>&9>                                                       &b&lUNETE! &r&6&l[&r&f&l%online%&r&7/&f&l%maxplayers%&r&6&l]"
+    
