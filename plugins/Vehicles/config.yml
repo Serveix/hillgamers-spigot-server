@@ -421,82 +421,82 @@ bike-shoptitle: '&6Bike Shop'
 bike-shopslots:
  '1':
   bikeType: 'BLACK'
-  price: 30
+  price: 100
   itemMaterial: 'CHEST'
   itemDisplayName: '&7Black Bike'
   itemLore:
    - '&7A standard black bike'
-   - '&6Price: &730'
+   - '&6Price: &7100'
  '4':
   bikeType: 'ORANGE'
-  price: 60
+  price: 130
   itemMaterial: 'CHEST'
   itemDisplayName: '&6Orange Bike'
   itemLore:
    - '&7A standard orange bike'
-   - '&6Price: &760'
+   - '&6Price: &7130'
  '7':
   bikeType: 'RED'
-  price: 70
+  price: 150
   itemMaterial: 'CHEST'
   itemDisplayName: '&cRed Bike'
   itemLore:
    - '&7A standard red bike'
-   - '&6Price: &770'
+   - '&6Price: &7150'
 car-shopsize: 9
 car-shoptitle: '&6Car Shop'
 car-shopslots:
  '1':
   carType: 'BLACK'
-  price: 50
+  price: 400
   itemMaterial: 'CHEST'
   itemDisplayName: '&7Black Car'
   itemLore:
    - '&7A standard black car'
-   - '&6Price: &750'
+   - '&6Price: &7400'
  '4':
   carType: 'YELLOW'
-  price: 80
+  price: 430
   itemMaterial: 'CHEST'
   itemDisplayName: '&eYellow Car'
   itemLore:
    - '&7A standard yellow car'
-   - '&6Price: &780'
+   - '&6Price: &7430'
  '7':
   carType: 'MAGENTA'
-  price: 100
+  price: 440
   itemMaterial: 'CHEST'
   itemDisplayName: '&dMagenta Car'
   itemLore:
    - '&7A standard magenta car'
-   - '&6Price: &7100'
+   - '&6Price: &7440'
 train-shopsize: 9
 train-shoptitle: '&6Train Shop'
 train-shopslots:
  '1':
   trainType: 'T1'
-  price: 50
+  price: 100
   itemMaterial: 'CHEST'
   itemDisplayName: '&7Slow Train'
   itemLore:
    - '&7A standard slow train'
-   - '&6Price: &750'
+   - '&6Price: &7100'
  '4':
   trainType: 'T2'
-  price: 80
+  price: 130
   itemMaterial: 'CHEST'
   itemDisplayName: '&eRegular Train'
   itemLore:
    - '&7A standard regular train'
-   - '&6Price: &780'
+   - '&6Price: &7130'
  '7':
   trainType: 'T3'
-  price: 100
+  price: 150
   itemMaterial: 'CHEST'
   itemDisplayName: '&aFast Train'
   itemLore:
    - '&7A standard fast train'
-   - '&6Price: &7100'
+   - '&6Price: &7150'
 raft-shopsize: 9
 raft-shoptitle: '&6Raft Shop'
 raft-shopslots:
@@ -510,155 +510,155 @@ raft-shopslots:
    - '&6Price: &750'
  '4':
   raftType: 'NETHER'
-  price: 80
+  price: 60
   itemMaterial: 'CHEST'
   itemDisplayName: '&cNether Raft'
   itemLore:
    - '&7A nether raft'
-   - '&6Price: &780'
+   - '&6Price: &760'
  '7':
   raftType: 'PIRATE'
-  price: 100
+  price: 70
   itemMaterial: 'CHEST'
   itemDisplayName: '&7Pirate Raft'
   itemLore:
    - '&7Dead men tell no tales'
-   - '&6Price: &7100'
+   - '&6Price: &770'
 plane-shopsize: 9
 plane-shoptitle: '&6Plane Shop'
 plane-shopslots:
  '1':
   planeType: 'P1'
-  price: 70
+  price: 800
   itemMaterial: 'CHEST'
   itemDisplayName: '&2Ki-61 Plane'
   itemLore:
    - '&7A plane from Japan'
-   - '&6Price: &770'
+   - '&6Price: &7800'
  '4':
   planeType: 'P2'
-  price: 100
+  price: 850
   itemMaterial: 'CHEST'
   itemDisplayName: '&6YAK-3 Plane'
   itemLore:
    - '&7A plane from Russia'
-   - '&6Price: &7100'
+   - '&6Price: &7850'
  '7':
   planeType: 'P3'
-  price: 150
+  price: 900
   itemMaterial: 'CHEST'
   itemDisplayName: '&7P-61 Plane'
   itemLore:
    - '&7"The Black Widow"'
-   - '&6Price: &7150'
+   - '&6Price: &7900'
 parachute-shopsize: 9
 parachute-shoptitle: '&6Parachute Shop'
 parachute-shopslots:
  '1':
   parachuteType: 'PC1'
-  price: 50
+  price: 30
   itemMaterial: 'CHEST'
   itemDisplayName: '&aLow Quality Parachute'
   itemLore:
    - '&7A low quality parachute'
-   - '&6Price: &750'
+   - '&6Price: &730'
  '4':
   parachuteType: 'PC2'
-  price: 60
+  price: 40
   itemMaterial: 'CHEST'
   itemDisplayName: '&eProfessional Parachute'
   itemLore:
    - '&7A professional parachute'
-   - '&6Price: &760'
+   - '&6Price: &740'
  '7':
   parachuteType: 'PC3'
-  price: 80
+  price: 50
   itemMaterial: 'CHEST'
   itemDisplayName: '&cWar Parachute'
   itemLore:
    - '&7A war parachute'
-   - '&6Price: &780'
+   - '&6Price: &750'
 helicopter-shopsize: 9
 helicopter-shoptitle: '&6Helicopter Shop'
 helicopter-shopslots:
  '1':
   helicopterType: 'H1'
-  price: 70
+  price: 600
   itemMaterial: 'CHEST'
   itemDisplayName: '&aTiger Helicopter'
   itemLore:
    - '&7European power'
-   - '&6Price: &770'
+   - '&6Price: &7600'
  '4':
   helicopterType: 'H2'
-  price: 100
+  price: 650
   itemMaterial: 'CHEST'
   itemDisplayName: '&eKamov KA-52 Helicopter'
   itemLore:
    - '&7The "Black Shark"'
-   - '&6Price: &7100'
+   - '&6Price: &7650'
  '7':
   helicopterType: 'H3'
-  price: 150
+  price: 700
   itemMaterial: 'CHEST'
   itemDisplayName: '&cApache Helicopter'
   itemLore:
    - '&7An US Advanced Attack Helicopter'
-   - '&6Price: &7150'
+   - '&6Price: &7700'
 tank-shopsize: 9
 tank-shoptitle: '&6Tank Shop'
 tank-shopslots:
  '1':
   tankType: 'T1'
-  price: 70
+  price: 500
   itemMaterial: 'CHEST'
   itemDisplayName: '&7Merkava Mk.4 Tank'
   itemLore:
    - '&7The latest Israeli development'
-   - '&6Price: &770'
+   - '&6Price: &7500'
  '4':
   tankType: 'T2'
-  price: 100
+  price: 550
   itemMaterial: 'CHEST'
   itemDisplayName: '&6Leopard 2A7 Tank'
   itemLore:
    - '&7A tank from Germany'
-   - '&6Price: &7100'
+   - '&6Price: &7550'
  '7':
   tankType: 'T3'
-  price: 150
+  price: 600
   itemMaterial: 'CHEST'
   itemDisplayName: '&aArmata Tank'
   itemLore:
    - '&7Russian main battle tank of new generation'
-   - '&6Price: &7150'
+   - '&6Price: &7600'
 submarine-shopsize: 9
 submarine-shoptitle: '&6Submarine Shop'
 submarine-shopslots:
  '1':
   submarineType: 'S1'
-  price: 70
+  price: 200
   itemMaterial: 'CHEST'
   itemDisplayName: '&aOhio Submarine'
   itemLore:
    - '&7Designed to carry intercontinental ballistic missiles.'
-   - '&6Price: &770'
+   - '&6Price: &7200'
  '4':
   submarineType: 'S2'
-  price: 100
+  price: 250
   itemMaterial: 'CHEST'
   itemDisplayName: '&eYellow Submarine'
   itemLore:
    - '&7We all live in a yellow submarine...'
-   - '&6Price: &7100'
+   - '&6Price: &7250'
  '7':
   submarineType: 'S3'
-  price: 150
+  price: 270
   itemMaterial: 'CHEST'
   itemDisplayName: '&cSierra II Submarine'
   itemLore:
    - '&7This submarine has strong titanium hulls.'
-   - '&6Price: &7150'
+   - '&6Price: &7270'
 broom-shopsize: 9
 broom-shoptitle: '&6Broom Shop'
 broom-shopslots:
@@ -691,28 +691,28 @@ hoverbike-shoptitle: '&6Hover Bike Shop'
 hoverbike-shopslots:
  '1':
   hoverbikeType: 'HB1'
-  price: 60
+  price: 200
   itemMaterial: 'CHEST'
   itemDisplayName: '&7Old Hover Bike'
   itemLore:
    - '&7An old hover bike.'
-   - '&6Price: &760'
+   - '&6Price: &7200'
  '4':
   hoverbikeType: 'HB2'
-  price: 80
+  price: 250
   itemMaterial: 'CHEST'
   itemDisplayName: '&aStandard Hover Bike'
   itemLore:
    - '&7Used all over the galaxy.'
-   - '&6Price: &780'
+   - '&6Price: &7250'
  '7':
   hoverbikeType: 'HB3'
-  price: 100
+  price: 300
   itemMaterial: 'CHEST'
   itemDisplayName: '&6Advanced Hover Bike'
   itemLore:
    - '&7Only for professionals.'
-   - '&6Price: &7100'
+   - '&6Price: &7300'
 bikes:
  'BLACK':
   seatMaterial: 'BLACK_TERRACOTTA'

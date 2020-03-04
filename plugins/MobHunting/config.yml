@@ -2817,7 +2817,7 @@ dropmoneyonground:
   # will be picked up as an item. OBS: If you want to use the bags as an Economy 
   # replacing Essentials/CraftConomy/... and more, then you have to install the
   # BagOfGold plugin as well. (https://dev.bukkit.org/projects/bagofgold)
-  drop_money_use_item_as_currency: true
+  drop_money_use_item_as_currency: false
 
   # Here you can chance the command /mh money ... to /mh <alias> ...
   # Example: gold,bag,silver,coin,???? 
