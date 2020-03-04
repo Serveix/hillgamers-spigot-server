@@ -1,5 +1,5 @@
 allowedWorlds:
- - 'world'
+ - 'world_new'
 vehicleHealthEnabled: true
 trainAffectByPoweredRails: true
 fuelEnabled: true
