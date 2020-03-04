@@ -59,21 +59,6 @@ dd2f9edc-9a19-46ea-a50c-4f11fc98ab10:
   uniqueid: dd2f9edc-9a19-46ea-a50c-4f11fc98ab10
   skinuuid: 93a9dc75-5120-4317-887c-757024c898d2
   hash: 0.000002351844f-f400-4fa4-9642-35169c5b048a
-b571d65d-dfc4-464d-b446-3fcb1d22cbd6:
-  location:
-    ==: org.bukkit.Location
-    world: world_new
-    x: -724.0
-    y: 55.0
-    z: 371.0
-    pitch: 0.0
-    yaw: 0.0
-  description: §9Spider
-  money: '0.00000'
-  uuid: 2351844f-f400-4fa4-9642-35169c5b048a
-  uniqueid: b571d65d-dfc4-464d-b446-3fcb1d22cbd6
-  skinuuid: 6ec9df42-9f3e-454f-917b-4ff8ec54b89e
-  hash: 0.000002351844f-f400-4fa4-9642-35169c5b048a
 9809ffcd-712e-4640-b92b-68e6da8328b4:
   location:
     ==: org.bukkit.Location
@@ -133,34 +118,4 @@ b5de3636-4d28-4495-b83e-6882b54a125e:
   uuid: 2351844f-f400-4fa4-9642-35169c5b048a
   uniqueid: 8061459c-3eac-408d-b7a7-1d78b1291d75
   skinuuid: 6ec9df42-9f3e-454f-917b-4ff8ec54b89e
-  hash: 0.000002351844f-f400-4fa4-9642-35169c5b048a
-da0a316b-af7d-454d-991a-b0648514e151:
-  location:
-    ==: org.bukkit.Location
-    world: world_new
-    x: -533.0
-    y: 71.0
-    z: 97.0
-    pitch: 0.0
-    yaw: 0.0
-  description: §9Pig
-  money: '0.00000'
-  uuid: 2351844f-f400-4fa4-9642-35169c5b048a
-  uniqueid: da0a316b-af7d-454d-991a-b0648514e151
-  skinuuid: 2fa81a2c-b94c-468f-9c31-a633cb8899f7
-  hash: 0.000002351844f-f400-4fa4-9642-35169c5b048a
-6d42ab64-9074-407f-9332-daa0a97a1150:
-  location:
-    ==: org.bukkit.Location
-    world: world_new
-    x: -533.0
-    y: 71.0
-    z: 98.0
-    pitch: 0.0
-    yaw: 0.0
-  description: §9Horse
-  money: '0.00000'
-  uuid: 2351844f-f400-4fa4-9642-35169c5b048a
-  uniqueid: 6d42ab64-9074-407f-9332-daa0a97a1150
-  skinuuid: 1262a9b5-7587-4b66-9708-446542f0beb7
   hash: 0.000002351844f-f400-4fa4-9642-35169c5b048a
