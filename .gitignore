@@ -2,6 +2,7 @@
 crash-reports/
 
 *.log
+*.db 
 
 logs/
 
@@ -15,3 +16,10 @@ world_*/
 mstore/
 
 plugins/Essentials/userdata/
+plugins/Essentials/usermap.csv
+plugins/Factions/factions.json
+plugins/Factions/players.json
+usercache.json
+plugins/MobHunting/rewards.yml
+plugins/MobHunting/rewards.yml.old
+plugins/SkinsRestorer/Skins
