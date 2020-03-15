@@ -12,6 +12,7 @@ world_new/
 world_new_nether/
 world_new_the_end/
 world_*/
+creative/
 
 mstore/
 
@@ -23,3 +24,17 @@ usercache.json
 plugins/MobHunting/rewards.yml
 plugins/MobHunting/rewards.yml.old
 plugins/SkinsRestorer/Skins
+
+plugins/AuthMe/config.yml
+
+plugins/LuckPerms/config.yml
+
+plugins/WorldEdit/sessions/
+
+plugins/Residence/Save/Worlds/
+
+plugins/Residence/Save/
+
+plugins/Residence/uuids.yml
+
+plugins/Residence/Backup/
