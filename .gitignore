@@ -24,6 +24,7 @@ usercache.json
 plugins/MobHunting/rewards.yml
 plugins/MobHunting/rewards.yml.old
 plugins/SkinsRestorer/Skins
+plugins/SkinsRestorer/Players
 
 plugins/AuthMe/config.yml
 
