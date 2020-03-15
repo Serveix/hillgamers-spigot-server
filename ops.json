@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "uuid": "4a1d92ef-62a2-3bee-b195-ebfd370c6e9f",
+    "name": "Serveix",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]
