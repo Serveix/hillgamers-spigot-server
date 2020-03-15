@@ -140,10 +140,10 @@ worlds:
     generator: 'null'
     playerLimit: '-1'
     allowFlight: 'true'
-  creative:
+  world_flatroom:
     ==: MVWorld
     hidden: 'false'
-    alias: creative
+    alias: ''
     color: WHITE
     style: NORMAL
     pvp: 'true'
@@ -170,20 +170,20 @@ worlds:
     autoHeal: 'true'
     adjustSpawn: 'true'
     portalForm: ALL
-    gameMode: CREATIVE
+    gameMode: SURVIVAL
     keepSpawnInMemory: 'true'
     spawnLocation:
       ==: MVSpawnLocation
-      x: 160.0
+      x: -64.0
       y: 4.0
-      z: -80.0
+      z: -176.0
       pitch: 0.0
       yaw: 0.0
     autoLoad: 'true'
     bedRespawn: 'true'
     worldBlacklist: []
     environment: NORMAL
-    seed: '408636836153819464'
+    seed: '-8793759832424684768'
     generator: 'null'
     playerLimit: '-1'
     allowFlight: 'true'
