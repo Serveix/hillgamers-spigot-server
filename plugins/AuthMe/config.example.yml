@@ -6,9 +6,9 @@ DataSource:
     # or when a website integration is being used.
     caching: true
     # Database host address
-    mySQLHost: 'db-mysql-nyc1-22862-do-user-7174453-0.a.db.ondigitalocean.com'
+    mySQLHost: 'localhost'
     # Database port
-    mySQLPort: '25060'
+    mySQLPort: '3306'
     # Connect to MySQL database over SSL
     mySQLUseSSL: true
     # Verification of server's certificate.
@@ -16,9 +16,9 @@ DataSource:
     # Set this option to false at your own risk if and only if you know what you're doing
     mySQLCheckServerCertificate: false
     # Username to connect to the MySQL database
-    mySQLUsername: doadmin
+    mySQLUsername: root
     # Password to connect to the MySQL database
-    mySQLPassword: 'dznrheu3o1v1jcte'
+    mySQLPassword: ''
     # Database Name, use with converters or as SQLITE database name
     mySQLDatabase: defaultdb
     # Table of the database
