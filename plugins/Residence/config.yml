@@ -2,7 +2,7 @@
 Global:
   # Starts UUID conversion on plugin startup
   # DONT change this if you are not sure what you doing
-  UUIDConvertion: true
+  UUIDConvertion: false
   # If you running offline server, better to check this as true. This will help to solve issues with changing players UUID.
   OfflineMode: true
   # Players with residence.versioncheck permission node will be noticed about new residence version on login
@@ -143,9 +143,12 @@ Global:
     TeleportTitleMessage: true
   RandomTeleportation:
     Worlds:
+      # World name to use this feature. Add annother one with appropriate name to enable random teleportation
       creative:
         Enabled: true
+        # Max coordinate to teleport, setting to 1000, player can be teleported between -1000 and 1000 coordinates
         MaxCoord: 1000
+        # If maxcoord set to 1000 and mincoord to 500, then player can be teleported between -1000 to -500 and 1000 to 500 coordinates
         MinCoord: 500
         CenterX: 0
         CenterZ: 0

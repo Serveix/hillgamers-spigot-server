@@ -38,3 +38,7 @@ plugins/Residence/Save/
 plugins/Residence/uuids.yml
 
 plugins/Residence/Backup/
+
+plugins/Factions/factionLogs.json
+
+plugins/Factions/board.json
