@@ -16,6 +16,7 @@ groups:
     - world_the_end
     - our_world
     - world_new
+    - world_flatroom
     default-gamemode: SURVIVAL
     starting-balance: 3000.0
   survival:

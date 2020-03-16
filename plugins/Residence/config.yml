@@ -365,7 +365,7 @@ Global:
   # Setting this to true causes subzones to inherit flags from their parent zones.
   ResidenceFlagsInherit: true
   # Setting this to false will allow rented residences to be modified by the renting player.
-  PreventRentModify: true
+  PreventRentModify: false
   # Setting this to true will prevent subzone deletion when subzone owner is not same as parent zone owner.
   PreventSubZoneRemoval: true
   # Setting this to false will cause residence to continue to load even if a error is detected in the save file.

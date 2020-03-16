@@ -143,14 +143,14 @@ worlds:
   world_flatroom:
     ==: MVWorld
     hidden: 'false'
-    alias: ''
+    alias: world_flatroom
     color: WHITE
     style: NORMAL
     pvp: 'true'
     scale: '1.0'
     respawnWorld: ''
     allowWeather: 'true'
-    difficulty: EASY
+    difficulty: HARD
     spawning:
       ==: MVSpawnSettings
       animals:
@@ -184,6 +184,53 @@ worlds:
     worldBlacklist: []
     environment: NORMAL
     seed: '-8793759832424684768'
+    generator: 'null'
+    playerLimit: '-1'
+    allowFlight: 'true'
+  world_college:
+    ==: MVWorld
+    hidden: 'false'
+    alias: world_college
+    color: WHITE
+    style: NORMAL
+    pvp: 'false'
+    scale: '1.0'
+    respawnWorld: ''
+    allowWeather: 'true'
+    difficulty: HARD
+    spawning:
+      ==: MVSpawnSettings
+      animals:
+        ==: MVSpawnSubSettings
+        spawn: 'false'
+        spawnrate: '-1'
+        exceptions: []
+      monsters:
+        ==: MVSpawnSubSettings
+        spawn: 'false'
+        spawnrate: '-1'
+        exceptions: []
+    entryfee:
+      ==: MVEntryFee
+      amount: '0.0'
+    hunger: 'true'
+    autoHeal: 'true'
+    adjustSpawn: 'true'
+    portalForm: ALL
+    gameMode: ADVENTURE
+    keepSpawnInMemory: 'true'
+    spawnLocation:
+      ==: MVSpawnLocation
+      x: 363.0
+      y: 161.0
+      z: 826.0
+      pitch: 0.0
+      yaw: 0.0
+    autoLoad: 'true'
+    bedRespawn: 'true'
+    worldBlacklist: []
+    environment: NORMAL
+    seed: '1996344613411915012'
     generator: 'null'
     playerLimit: '-1'
     allowFlight: 'true'
